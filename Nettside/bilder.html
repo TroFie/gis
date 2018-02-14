@@ -24,10 +24,12 @@
 			</nav>
 		</header>
 
-		<div id="image-modal" class="modal"> 
-			<span class="close">x</span>
-			<img class="modal-content" src='./Bilder/Bilde0.jpg' alt='Bilde0'/>
+		<div id="image-modal" class="modal">
+			<span class="close" onclick="closeModal();">x</span>
+				<img class="modal-content" src='./Bilder/Bilde0.jpg' alt='Bilde0'/>
 		</div>
+
+		<script type="text/javascript" src="./js/ModalViser.js"></script>
 
 		<section id="boxes">
 			<div class="container">
@@ -96,7 +98,17 @@
 				<div class="imgbox" style="background-image: url('./Bilder/Bilde31.jpg');">
 				</div>
 				<div class="imgbox" style="background-image: url('./Bilder/Bilde32.jpg');">
-				</div>			
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript">
+			var imgboxes = document.getElementsByClassName("imgbox");
+			for (var x = 0; x < imgboxes.length; x++){
+				imgboxes[x].addEventListener("click", showModal);
+			}
+		</script>	
+
 		<section id="newsletter">
 			<div class="container">
 				<form>

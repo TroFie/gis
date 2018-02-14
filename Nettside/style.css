@@ -161,6 +161,11 @@ header a:hover{
 	border: solid white 1.5px;
 }
 
+#boxes .imgbox:hover,
+#boxes .imgbox:focus{
+	cursor: pointer;
+}
+
 /* Modal */
 #image-modal{
 	position: fixed;
