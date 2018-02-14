@@ -148,6 +148,19 @@ header a:hover{
 	width: 90px;
 }
 
+/* Bokser Bilder */
+#boxes .imgbox{
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	min-height: 400px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border: solid white 1.5px;
+}
+
 footer{
 	padding: 20px;
 	margin-top: 20px;
