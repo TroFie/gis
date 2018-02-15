@@ -30,11 +30,9 @@
 
 					<li><a href="../faq.html">Faq</a></li>
 
-					<li><a href="../bilder.html">Bilder</a></li>
+					<li><a href="../galleri.html">Bilder</a></li>
 
 					<li><a href="kontakt.php">Kontakt oss</a>
-						
-					<li><a href="../omoss.html">Om oss</a></li>
 
 
 				</ul>
