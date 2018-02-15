@@ -23,7 +23,6 @@
 			<nav class="container">
 
 				<ul>
-
 					<li><a href="../index.html">Hjem</a></li>
 
 					<li><a href="../about.html">Om studiet</a></li>
@@ -33,6 +32,11 @@
 					<li><a href="../bilder.html">Bilder</a></li>
 
 					<li><a href="kontakt.php">Kontakt oss</a>
+
+					<li><a href="../fou.html">FOU</a>
+						
+					<li><a href="../omoss.html">Om oss</a></li>
+
 
 
 				</ul>
