@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width">
+		<title>GIS, HSN</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class ="highlight">GIS</span> | Høgskolen i Sørøst-Norge</h1>
+				</div>
+			</div>
+			<nav class="container">
+				<ul>
+					<li><a href="index.html">Hjem</a></li>
+
+					<li><a href="about.html">Om studiet</a></li>
+
+					<li><a href="faq.html">Faq</a></li>
+
+					<li><a href="bilder.html">Bilder</a></li>
+
+					<li><a href="form/kontakt.php">Kontakt oss</a>
+
+					<li><a href="fou.html">FOU</a>
+						
+					<li><a href="omoss.html">Om oss</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="showcase">
+			<div class="container">
+				<h1>Om oss</h1>
+				<br>
+				<br>
+				<p><a href="https://www.usn.no/studier/finn-studier/ingenior-sivilingenior-teknologi-og-it/geografiske-informasjonssystem-pabygging/">Geografiske informasjonssystem,GIS </a>, er et fag hvor en tar i bruk dataverktøy for innsamling, bearbeiding, lagring og presentasjon av geografiske data. GIS kan knyttes opp mot mange ulike fagfelt og kan benyttes i alle fagretninger der en jobber med stedfestet informasjon. Du blir operativ i bruk av GIS på det fagområdet du har utdannelse i, og kan stå for innføring av GIS i en organisasjon. Vi holder til ved Høgskolen i Sør-øst Norge, campus Bø.</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Vi har 4 ansatte på GIS gruppen:</p>
+				<br>
+				<br>
+				<table>
+				<tr>
+					<th class="title">Navn</th>
+ 					<th class="title">Stilling</th>
+ 					<th class="title">Telefon</th>
+ 					<th class="title">E-post</th>
+ 				</tr>
+ 				<tr>
+ 					<td class="text"><a href="https://www.usn.no/about-usn/contact-us/employees/arne-william-hjeltnes-article201584-7531.html">Arne William Hjeltnes</td>
+ 					<td class="text">Overingeniør</td>
+ 					<td class="text">+47 35 95 27 26</td>
+ 					<td class="text">Arne.hjeltnes@usn.no</td>
+ 				</tr>
+ 				<tr>
+ 					<td class="text"><a href="https://www.usn.no/about-usn/contact-us/employees/dieu-tien-bui-article196922-7531.html"> Dieu Tien Bui </a></td>
+ 					<td class="text">Førsteamanuensis</td>
+ 					<td class="text">+47 96 67 76 78</td>
+ 					<td class="text">Dieu.t.bui@usn.no</td>
+ 				</tr>
+ 				<tr>
+ 					<td class="text"><a href="https://www.usn.no/about-usn/contact-us/employees/kjell-oyvind-kjenstad-article195117-7531.html">Kjell Øyvind Kjenstad</td>
+ 					<td class="text">Førsteamanuensis </td>
+ 					<td class="text">+47 45 42 28 50</td>
+ 					<td class="text">Kjell.kjenstad@usn.no</td>
+ 				</tr>
+ 				<tr>
+ 					<td class="text"><a href="https://www.usn.no/om-hsn/kontakt-oss/ansatte/endre-for-gjermundsen-article211423-6688.html">Endre Før Gjermundsen</td>
+ 					<td class="text">Førsteamanuensis</td>			
+ 					<td class="text">+47 35 95 28 82</td>
+ 					<td class="text">Endre.f.gjermundsen@usn.no</td>
+ 				</tr>
+ 				</table>
+ 					
+ 		<!-- Geolokasjon -->
+			<div id="kart" style="width:100%;height:400px"></div>
+			<p>Adresse: Gullbringvegen 36, 3800 Bø</p>
+			<script>
+			function myMap() {
+		  		var myCenter = new google.maps.LatLng(59.4090545,9.0598683);
+		  		var kartLerret = document.getElementById("kart");
+		  		var kartInstillinger = {center: myCenter, zoom: 15};
+		  		var kart = new google.maps.Map(kartLerret, kartInstillinger);
+		  		var marker = new google.maps.Marker({position:myCenter});
+		  		marker.setMap(kart);
+			}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDs4-aoBckDk-E9auEf2BCgaqB9U9pu2i0&callback=myMap"></script>
+
+
+</body>
+</html>
