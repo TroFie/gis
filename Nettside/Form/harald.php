@@ -34,6 +34,10 @@
 
 					<li><a href="kontakt.php">Kontakt oss</a>
 
+					<li><a href="../fou.html">FOU</a>
+
+					<li><a href="../omoss.html">Om oss</li>
+
 
 				</ul>
 

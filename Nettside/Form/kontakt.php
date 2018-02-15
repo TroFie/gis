@@ -36,6 +36,8 @@
 
 					<li><a href="../fou.html">FOU</a>
 
+					<li><a href="../omoss.html">Om oss</li>
+
 
 				</ul>
 
