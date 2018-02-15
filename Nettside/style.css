@@ -180,7 +180,7 @@ header a:hover{
 	display: none;
 } 
 
-#image-modal .modal-content{
+#image-modal #modal-content{
 	width: 80%;
 	display: block;
 	max-width: 700px;
