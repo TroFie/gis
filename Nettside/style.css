@@ -155,3 +155,27 @@ footer{
 	background-color: #e8491d;
 	text-align:center;
 }
+
+/* Om oss pagen */
+th, td {
+padding           : 27px;
+width             : 450px;
+text-align        : left;
+}
+
+table, th, td {
+border            : 1px #F0FFFF;
+border-collapse   : collapse;
+} 
+
+table tr .title {
+background        : black;
+color             : white;
+font-weight       :bold;
+padding           :5px; 
+width             :100px;   
+}
+
+table tr .text {
+padding-left      :10px;
+}
