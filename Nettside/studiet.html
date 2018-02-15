@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name ="viewport" content="width=device-width">
+		<title>GIS Studiet, HSN</title>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class ="highlight">GIS</span> | Høgskolen i Sørøst-Norge</h1>
+				</div>
+			</div>
+			<nav class="container">
+				<ul>
+					<li><a href="index.html">Hjem</a></li>
+					<li><a href="studiet.html">Om studiet</a></li>
+					<li><a href="faq.html">Faq</a></li>
+					<li><a href="bilder.html">Bilder</a></li>
+					<li><a href="form/kontakt.php">Kontakt oss</a></li>
+				</ul>
+			</nav>
+		</header>
+			<section id="showcaseStudie">
+				<div class="container">
+					<h1> Fagblokk </h1>
+					<p>O - Obligatorisk emne, V - Valgbart emne, S1/S2 - Første/andre semester, H/V - Høst/Vår</p>
+				</div>
+			</section>
+
+		<table class="container">
+			<tr>
+				<th> Emnekode</th>
+				<th> Emnets navn</th>
+				<th> Studiepoeng</th>
+				<th> O/V</th>
+				<th> Studiepoeng pr. semester</th>
+				<th> Studiepoeng pr. semester</th>
+			</tr>
+			<tr>
+				<th> </th>
+				<th> </th>
+				<th> </th>
+				<th> </th>
+				<th> S1(H)</th>
+				<th> S2(V)</th>
+			<tr>
+				<td> 5708</td>
+				<td> GIS og kart</td>
+				<td> 10,00</td>
+				<td> O</td>
+				<td> 10</td>
+				<td> </td>
+			</tr>
+			<tr>
+				<td> 5602</td>
+				<td> Databaser</td>
+				<td> 10,00</td>
+				<td> O</td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> 5709</td>
+				<td> Landmåling</td>
+				<td> 10,00</td>
+				<td> O</td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> 5702</td>
+				<td> Geografisk analyse</td>
+				<td> 10,00</td>
+				<td> O</td>
+				<td> </td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> 5705</td>
+				<td> Prosjektarbeid i GIS</td>
+				<td> 10,00</td>
+				<td> O</td>
+				<td> </td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> 5704</td>
+				<td> Fjernanalyse</td>
+				<td> 10,00</td>
+				<td> V</td>
+				<td> </td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> 4112</td>
+				<td> Arealplanlegging og miljørett</td>
+				<td> 10,00</td>
+				<td> V</td>
+				<td> </td>
+				<td> 10</td>
+			</tr>
+			<tr>
+				<td> </td>
+				<td> </td>
+				<td> </td>
+				<td> Sum:</td>
+				<td> 30</td>
+				<td> 40</td>
+			</tr>
+		</table>
+
+		<section class="container">
+			<div id="studielink">
+				<button class="button_2"><a href="http://www.hit.no/Studietilbud/Geografiske-informasjonssystemer-GIS"> Søk på studiet</a></button>
+				<button class="button_2"><a href="http://fagplaner.hit.no/nexusnor/Studier-med-oppstart-2016-2017/Nettvisning/Informatikk-oekonomi-og-administrasjon/Geografiske-informasjonssystemer"> Studie- og fagplan</a></button>
+				<button class="button_2"><a href="https://www.facebook.com/GISiUSN.no/?sk=app_128953167177144&ref=s"> Jobbe med GIS</a></button>
+				<button class="button_2"><a href="https://www.facebook.com/GISiUSN.no/?sk=app_201742856511228&ref=s"> GIS i samfunnet</a></button>
+				<button class="button_2"><a href="http://www2.hit.no/af/ifim/gis-samarbeidet/"> GIS-samarbeidet</a></button>
+			</div>
+		</section>
+
+		<div id="image-modal1" class="modal">
+			<span class="close" onclick="closeModal();">x</span>
+				<img id="modal-content1" src='' alt=''/>
+		</div>
+
+		<script type="text/javascript" src="./js/ModalViser.js"></script>
+
+		<section id="boxes">
+			<div class="container">
+				<div class="imgbox1" style="background-image: url('./Bilder/photo1.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo2.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo3.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo4.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo5.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo6.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo7.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo8.jpg');">
+				</div>
+				<div class="imgbox1" style="background-image: url('./Bilder/photo9.jpg');">
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript">
+			var imgboxes = document.getElementsByClassName("imgbox1");
+			for (var x = 0; x < imgboxes.length; x++){
+				(function(x){
+				var currentBox = imgboxes[x];
+				currentBox.addEventListener("click", function(){
+					var backgroundImageUrl = currentBox.style.backgroundImage.slice(5,-2);
+					showModal(backgroundImageUrl);
+				});
+				})(x);
+			}
+
+		</script>
+
+
+			<footer>
+				<p>Høgskolen i Sør-Øst Norge, Copyright &copy; 2018</p>
+			</footer>
+
+	</body>
+
+</html>
+
+		
+
+		
