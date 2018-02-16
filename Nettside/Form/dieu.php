@@ -24,16 +24,24 @@
 
 				<ul>
 
+
 					<li><a href="../index.html">Hjem</a></li>
 
 					<li><a href="../about.html">Om studiet</a></li>
 
 					<li><a href="../faq.html">Faq</a></li>
 
-					<li><a href="../galleri.html">Bilder</a></li>
+					<li><a href="../bilder.html">Bilder</a></li>
 
 					<li><a href="kontakt.php">Kontakt oss</a>
 
+					<li><a href="../fou.html">FOU</a></li>
+
+					<li><a href="../omoss.html">Om oss</a></li>
+
+					<li><a href="../Jobbe med GIS.html">Jobbe med GIS</a></li>
+
+					<li><a href="../GIS i samfunnet.html">GIS i samfunnet</a></li>
 
 				</ul>
 
