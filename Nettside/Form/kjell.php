@@ -26,7 +26,7 @@
 
 					<li><a href="../index.html">Hjem</a></li>
 
-					<li><a href="../about.html">Om studiet</a></li>
+					<li><a href="../studiet.html">Om studiet</a></li>
 
 					<li><a href="../faq.html">Faq</a></li>
 
