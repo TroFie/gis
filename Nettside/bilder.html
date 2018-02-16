@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta name ="viewport" content="width=device-width">
@@ -16,19 +16,28 @@
 			<nav class="container">
 				<ul>
 					<li><a href="index.html">Hjem</a></li>
+
 					<li><a href="about.html">Om studiet</a></li>
+
 					<li><a href="faq.html">Faq</a></li>
+
 					<li><a href="bilder.html">Bilder</a></li>
-					<li><a href="form/kontakt.php">Kontakt oss</a></li>
-					<li><a href="fou.html">FOU</a></li>
+
+					<li><a href="form/kontakt.php">Kontakt oss</a>
+
+					<li><a href="fou.html">FOU</a>
+						
 					<li><a href="omoss.html">Om oss</a></li>
-					<li><a href="Jobbe med GIS.html">Jobbe med GIS</a></li>
-					<li><a href="GIS i samfunnet.html">GIS i samfunnet</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		
+		<div id="image-modal" class="modal">
+			<span class="close" onclick="closeModal();">x</span>
+				<img id="modal-content" src='' alt=''/>
+		</div>
+
+		<script type="text/javascript" src="./js/ModalViser.js"></script>
 
 		<section id="boxes">
 			<div class="container">
@@ -98,23 +107,22 @@
 				</div>
 				<div class="imgbox" style="background-image: url('./Bilder/Bilde32.jpg');">
 				</div>
-<!--
-				<div class="imgbox">
-					<img src="./Bilder/Bilde1.jpg" alt="Bilde av en kar">
-				</div>
-				<div class="imgbox">
-					<img src="./Bilder/Bilde2.jpg" alt="Bilde av en kar">
-				</div>
-				<div class="imgbox">
-					<img src="./Bilder/Bilde3.jpg" alt="Bilde av en kar">
-				</div>
-				<div class="imgbox">
-					<img src="./Bilder/Bilde4.jpg" alt="Bilde av en kar">
-				</div>
-				<div class="imgbox">
-					<img src="./Bilder/Bilde5.jpg" alt="Bilde av en kar">
-				</div>
--->				
+			</div>
+		</section>
+
+		<script type="text/javascript">
+			var imgboxes = document.getElementsByClassName("imgbox");
+			for (var x = 0; x < imgboxes.length; x++){
+				(function(x){
+				var currentBox = imgboxes[x];
+				currentBox.addEventListener("click", function(){
+					var backgroundImageUrl = currentBox.style.backgroundImage.slice(5,-2);
+					showModal(backgroundImageUrl);
+				});
+				})(x);
+			}
+		</script>	
+
 		<section id="newsletter">
 			<div class="container">
 				<form>
